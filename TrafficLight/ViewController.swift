@@ -35,7 +35,6 @@ class ViewController: UIViewController {
     
         if colorRedView.alpha == (0.3) {
             textButton.setTitle("NEXT", for: .normal)
-            colorRedView.alpha = 1
 
         }
 
