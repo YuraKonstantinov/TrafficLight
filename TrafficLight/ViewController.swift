@@ -32,11 +32,14 @@ class ViewController: UIViewController {
 
     @IBAction func textButtonPressed() {
         colorRedView.alpha = 1
-        
+    
         if colorRedView.alpha == (0.3) {
             textButton.setTitle("NEXT", for: .normal)
+            colorRedView.alpha = 1
+
         }
 
+        
     }
     
 }
